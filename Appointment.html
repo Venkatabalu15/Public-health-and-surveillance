@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="Appointment.css">
+<title></title>
+</head>
+<body>
+<section>
+<div class="form-box">
+<div class="form-value">
+<h2>DOCTOR APPOINTMENT </h2>
+<form action="https://sheetdb.io/api/v1/hqixu2fkb4ns0"
+method="post" id="sheetdb-form">
+<div class="inputbox">
+<input name="data[patient Name]" required>
+<label for="name">Patient Name:</label>
+</div>
+<div class="inputbox">
+    
+    <label for="name"> Gender:</label>
+
+    <select id="gender" name="data[gender]" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+</div>
+
+    <div class="inputbox">
+        <input name="data[email]" required>
+        <label for="email">Email:</label>
+     </div>
+
+     <div class="inputbox">
+        <label for="age">Age</label>
+        <input type="number" id="age" name="data[age]">
+    </div>
+
+    <div class="inputbox">
+        <input type="number" name="data[number]"
+        required>
+        <label for="">Phone Number</label>
+    </div>
+
+    <div class="inputbox">
+        <label for="dob"> Appointment Date </label>
+        <input type="date" id="dob" name="data[Appointment Date]">
+    </div>
+<div class="inputbox">
+<label for="time"> Appointment Time</label>
+<input type="time" id="time" name="data[Appointment Time]">
+</div>
+<div class="inputbox">
+<input name="data[additional details]" required>
+<label for="name">Additional Details:</label>
+</div>
+
+<div class="inputbox">
+    <input name="data[Gardian name]" required>
+    <label for="name">Gardian name:</label>
+</div>
+
+<div class="inputbox">
+    <input type="number" name="data[Gardian number]"
+    required>
+    <label for="">Gardian number</label>
+</div>
+
+
+<button>REGISTER</button>
+<div class="register">
+<p>Don't have a account register <a href = "#" class = "btn btn-light-blue">Click to Register</a></p>
+</div>
+</form>
+</div>
+</div>
+</section>
+</body>
+</html>
